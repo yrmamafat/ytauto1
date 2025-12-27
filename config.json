@@ -1,0 +1,24 @@
+{
+  "amazon": {
+    "access_key": "your_amazon_access_key",
+    "secret_key": "your_amazon_secret_key",
+    "partner_tag": "your_amazon_affiliate_tag",
+    "region": "us-east-1",
+    "host": "webservices.amazon.com"
+  },
+  "openai": {
+    "api_key": "your_openai_api_key"
+  },
+  "youtube": {
+    "client_id": "your_youtube_client_id",
+    "client_secret": "your_youtube_client_secret",
+    "refresh_token": "your_youtube_refresh_token"
+  },
+  "video_generation": {
+    "duration": 10,
+    "resize_height": 480
+  },
+  "schedule": {
+    "frequency_hours": 6
+  }
+}
