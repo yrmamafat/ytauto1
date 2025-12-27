@@ -7,10 +7,6 @@ on:
     - cron: "0 */6 * * *"  # Runs every 6 hours
   workflow_dispatch:  # Manually trigger the workflow if needed
 
-# Trigger the workflow to run every 6 hours
-
-  schedule:
-    - cron: "0 */6 * * *" # Runs every 6 hours (adjust as needed)
 
 jobs:
   video-generation:
