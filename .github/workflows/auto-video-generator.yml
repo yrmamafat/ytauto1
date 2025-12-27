@@ -35,10 +35,9 @@ jobs:
           PAAPI_ACCESS_KEY: ${{ secrets.PAAPI_ACCESS_KEY }}
           PAAPI_SECRET_KEY: ${{ secrets.PAAPI_SECRET_KEY }}
           PAAPI_PARTNER_TAG: ${{ secrets.PAAPI_PARTNER_TAG }}
+          PAAPI_HOST: ${{ secrets.PAAPI_HOST }}  # Ensure this is correctly loaded from secrets
+          PAAPI_REGION: ${{ secrets.PAAPI_REGION }}  # Ensure this is correctly loaded from secrets
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
-          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
-          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
         run: |
           python scripts/main.py
 
