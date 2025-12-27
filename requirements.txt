@@ -6,3 +6,5 @@ google-api-python-client==2.34.0
 google-auth==2.9.1
 google-auth-oauthlib==0.4.6
 google-auth-httplib2==0.1.0
+python-dotenv==0.19.2
+
