@@ -8,7 +8,7 @@ on:
   workflow_dispatch:  # Manually trigger the workflow if needed
 
 # Trigger the workflow to run every 6 hours
-on:
+
   schedule:
     - cron: "0 */6 * * *" # Runs every 6 hours (adjust as needed)
 
